@@ -1,12 +1,13 @@
 body{
     position: relative;
+    overflow: hidden;
 }
 
 
 
 .left{
     float:left;
-    padding: 10% 0% 10% 20%;
+    padding: 10% 21% 2% 15%;
     position: relative;
 }
 
@@ -14,28 +15,46 @@ body{
     float:right;
     position: relative;
     text-align: left;
-    padding: 10% 30% 10% 10%;
-    
+    padding: 14% 32% 10% 15%;
+    align-items: center;
+    align-content: center;
 }
-.button{
+
+
+.right h1{
+    font-weight: 800;
+}
+.right h2{
+    font-weight: 400;
+    text-decoration: overline;
+}
+#button{
     /* position: relative; */
     z-index: 10;
     /* padding: 40% 100% 40% 20%; */
     position:absolute;
-    width: 100%;
-    height: 100%;
-    top: 150%;
-    left: 160%;
-    color :aqua;
+    width: 120px;
+    top: 260%;
+    left: 75%;
+    color :rgb(39, 90, 167);
+    font-weight: 800;
 }
 
 #model{
+    display: none;
     border-radius: 3%;
+    position:absolute;
     
-    position:absolute
 }
 
 
 
+#png{
+    
+    border-radius: 3%;
+    position:absolute;
+    
+    
+}
 
 

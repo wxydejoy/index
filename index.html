@@ -14,28 +14,23 @@
 <body>
     <!-- 介绍 -->
     <div class="right">
-        <h1 >Welcome</h1>
-        <h2 >introduce</h2>
+        <h1>W X Y</h1>
+        <h2>A student</h2>
+        
     </div>
     <!-- 模型 -->
     
     <div class="left">
-        <ul class="button">
-             <a onclick="model.src='https://ts.undf.top/3d/bysj.html'">点击加载</a>
+        <ul id="button">
+            <a onclick="load()">点击加载</a>
         </ul>
-        <iframe name = "model" id="model" src="index.png" scrolling="no"
+        <img id="png" src="index.png" 
+            onload="height = window.innerHeight/2;width = window.innerWidth/3;" frameborder="0">
+        <iframe id="model" src="" scrolling="no"
             onload="height = window.innerHeight/2;width = window.innerWidth/3;" frameborder="0">
         </iframe>
     </div>
-
-
-
-
-
-
-
-
-    <script src="" async defer></script>
+    <script src="src/js/index.js" async defer></script>
 </body>
 
 </html>
